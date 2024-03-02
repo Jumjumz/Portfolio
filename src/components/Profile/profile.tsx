@@ -118,6 +118,8 @@ function Profile() {
             className="max-[1600px]:h-12 h-10 rounded-2xl bg-zinc-700 font-mono font-semibold text-white text-lg text-center p-1 tracking-[0.3rem] shadow-md shadow-gray-500/60 hover:shadow-gray-800/40 cursor-pointer"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.95 }}
+            href="https://github.com/Jumjumz/Portfolio"
+            target="_blank"
           >
             CODE
           </motion.a>
