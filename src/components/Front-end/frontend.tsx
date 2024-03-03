@@ -87,6 +87,7 @@ function FrontEnd() {
                 className=" w-32 h-[100%] shadow-xl rounded-lg bg-rquartz dark:bg-slate-900 dark:text-rquartz text-center p-2 font-mono font-semibold text-lg align-middle cursor-pointer"
                 whileHover={{ scale: 1.07 }}
                 whileTap={{ scale: 0.9 }}
+                href="https://sneaker-store-sample-website.vercel.app/"
                 target="_blank"
               >
                 DEMO
