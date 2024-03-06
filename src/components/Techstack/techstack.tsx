@@ -21,7 +21,7 @@ const fStack = [
 
   {
     id: 5,
-    text: "Transcript",
+    text: "Typescript",
   },
 
   {
@@ -76,7 +76,7 @@ const fStack = [
 
   {
     id: 16,
-    text: "Transcript",
+    text: "Typescript",
   },
 
   {

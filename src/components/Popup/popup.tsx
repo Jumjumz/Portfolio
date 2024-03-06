@@ -13,14 +13,16 @@ const PopupImage: FC<Props> = ({ imgName, setNumPopUp, notNum }) => {
       {setNumPopUp && (
         <motion.div
           className=" w-[calc(100%-2rem)] h-[calc(100%-2rem)] fixed bg-slate-700 flex flex-row flex-wrap justify-center p-8 z-50"
+          key={imgName}
           onClick={(e) => e.stopPropagation()}
           variants={{
             hidden: { scale: 0.3 },
             visible: { scale: 1 },
+            exit: { y: 1000 },
           }}
           initial="hidden"
           animate="visible"
-          exit="hidden"
+          exit="exit"
           transition={{
             type: "spring",
             bounce: 0.8,
