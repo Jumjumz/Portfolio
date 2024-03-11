@@ -46,12 +46,12 @@ const fStack = [
 
   {
     id: 10,
-    text: "Next.js",
+    text: "Nextjs",
   },
 
   {
     id: 11,
-    text: "three.js",
+    text: "threejs",
   },
 
   {
@@ -101,12 +101,12 @@ const fStack = [
 
   {
     id: 21,
-    text: "Next.js",
+    text: "Nexts",
   },
 
   {
     id: 22,
-    text: "three.js",
+    text: "threejs",
   },
 ];
 
