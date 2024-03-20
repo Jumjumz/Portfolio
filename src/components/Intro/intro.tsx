@@ -201,7 +201,7 @@ function Intro() {
                 key={setTestimonials.id}
                 variants={{
                   hidden: { y: 0 },
-                  visible: { y: [0, -1280] },
+                  visible: { y: [0, -1215] },
                 }}
                 initial="hidden"
                 animate={mainControls}
