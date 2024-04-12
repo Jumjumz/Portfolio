@@ -101,15 +101,13 @@ function Graphics() {
                   loading="lazy"
                 />
               </motion.div>
-              <AnimatePresence>
-                {showImage === getGraphicImage.id && (
-                  <PopupImage
-                    imgName={getGraphicURL(getGraphicImage.name)}
-                    setNumPopUp={getGraphicImage.id}
-                    notNum={() => setShowImage(0)}
-                  />
-                )}
-              </AnimatePresence>
+              {showImage === getGraphicImage.id && (
+                <PopupImage
+                  imgName={getGraphicURL(getGraphicImage.name)}
+                  setNumPopUp={getGraphicImage.id}
+                  notNum={() => setShowImage(0)}
+                />
+              )}
             </>
           ))}
         </div>

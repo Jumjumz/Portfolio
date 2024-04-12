@@ -10,7 +10,7 @@ function Profile() {
   return (
     <>
       <motion.div
-        className="max-[1600px]:w-[453px] max-[1600px]:h-[900px] max-[1600px]:self-center max-[1300px]:w-[432px] max-[1300px]:h-[900px] flex flex-col flex-wrap col-start-1 row-start-1 row-span-8 p-4 justify-center rounded-3xl bg-bluegrn shadow-2xl dark:shadow-cadet-600/30 dark:bg-champagne-900"
+        className="min-[1600px]:w-full min-[1600px]:h-full min-[1600px]:flex-col min-[1600px]:justify-center min-[1025px]:w-full min-[1025px]:h-[432px] min-[1025px]:flex-row min-[1025px]:justify-between max-[1024px]:w-[432px] max-[1024px]:h-[900px] max-[1024px]:self-center flex flex-col flex-wrap col-start-1 row-start-1 row-span-8 p-4 justify-center rounded-3xl bg-bluegrn shadow-2xl dark:shadow-cadet-600/30 dark:bg-champagne-900"
         variants={{
           hidden: { y: ["-100vh"] },
           animate: { y: 0 },
@@ -26,14 +26,14 @@ function Profile() {
           stiffness: 30,
         }}
       >
-        <div className="max-[1600px]:h-50 w-[100%] h-50 flex flex-row justify-center">
+        <div className="min-[1600px]:h-52 min-[1600px]:w-[100%] min-[1025px]:w-[25%] h-52 flex flex-row justify-center">
           <motion.div className="max-[1600px]:w-56 max-[1600px]:h-48 w-60 h-48 rounded-full self-center absolute bg-gradient-to-r from-fuchsia animate-spin dark:bg-gradient-to-t dark:from-indgo" />
           <img
             src={Propic}
             className=" w-48 h-48 rounded-full self-center z-10"
           />
         </div>
-        <div className="max-[1600px]:h-52 h-50 flex flex-col pt-2 pb-2 justify-evenly border-gray-700 border-b-2">
+        <div className="min-[1600px]:h-52 min-[1600px]:w-[100%] min-[1025px]:w-[40%] h-52 flex flex-col pt-2 pb-2 justify-evenly border-gray-700 border-b-2">
           <h1 className="max-[1600px]:text-4xl mt-2 mb-2 font-serif text-5xl text-center text-gray-900">
             Jummer Ramos
           </h1>
@@ -50,8 +50,8 @@ function Profile() {
             Front-end, UI/UX: 1.5+ years
           </p>
         </div>
-        <div className="max-[1600px]:h-30 max-[1400px]:h-30 max-[1300px]:h-44 w-[100%] h-40 flex flex-col border-gray-700 border-b-2">
-          <h1 className="max-[1600px]:text-3xl font-serif text-3xl text-center text-gray-900">
+        <div className="min-[1600px]:h-36 min-[1600px]:w-full min-[1600px]:pt-0 min-[1025px]:w-[35%] min-[1025px]:h-52 min-[1025px]:pt-5 w-[100%] h-40 flex flex-col border-gray-700 border-b-2">
+          <h1 className="min-[1600px]:text-3xl min-[1025px]:text-4xl font-serif text-3xl text-center text-gray-900">
             Tech Stack
           </h1>
           <div className=" w-[100%] h-[100%] flex flex-col flex-wrap justify-evenly overflow-clip gradient-mask-r-80">
@@ -74,7 +74,7 @@ function Profile() {
                 </motion.h1>
               ))}
             </div>
-            <div className=" w-[100%] h-14 flex flex-col flex-wrap justify-evenly">
+            <div className=" w-[100%] h-8 flex flex-col flex-wrap justify-evenly">
               {getGUIStack.map((getGUIStack) => (
                 <motion.h1
                   className=" w-32 h-8 text-center font-mono text-base flex flex-col justify-center align-middle text-slate-800 bg-slate-200 ml-2 rounded-md shadow-lg shadow-blu/60 dark:shadow-rred-500/60"
@@ -97,14 +97,14 @@ function Profile() {
             </div>
           </div>
         </div>
-        <div className="max-[1600px]:h-24 w-[100%] h-26 flex flex-row flex-wrap justify-evenly text-center">
+        <div className="min-[1600px]:h-26 min-[1600px]:w-full min-[1025px]:w-[50%] w-[100%] h-26 flex flex-row flex-wrap justify-evenly text-center">
           <h1 className=" font-serif text-3xl w-[100%]">Contacts</h1>
           <p className=" font-serif text-lg w-[100%]">
             Email: jumjumramos@gmail.com
           </p>
           <p className="font-serif text-lg w-[100%]">Skype: jumjumramos_1</p>
         </div>
-        <div className="max-[1600px]:h-36 max-[1600px]:gap-0 w-[100%] h-30 pt-1 pb-1 flex flex-col gap-2 justify-evenly mt-2">
+        <div className="min-[1600px]:h-36 min-[1600px]:w-full min-[1600px]:gap-0 min-[1025px]:w-[50%] w-[100%] h-30 pt-1 pb-1 flex flex-col gap-2 justify-evenly mt-2">
           <motion.a
             className="max-[1600px]:h-12 h-10 rounded-2xl bg-rred-900 font-sans font-semibold text-white text-lg text-center p-1 tracking-[0.3rem] shadow-md shadow-rred-500/60 hover:shadow-rred-800/40 cursor-pointer"
             whileHover={{ scale: 1.03 }}
