@@ -37,7 +37,7 @@ function Intro() {
         }}
       >
         <div
-          className="max-[1600px]:h-[640px] max-[1024px]:h-[100%] max-[1024px]:flex max-[1024px]:flex-col max-[1024px]:flex-wrap grid grid-cols-6 grid-rows-6 m-4 gap-2 rounded-3xl overflow-clip"
+          className="max-[1600px]:h-[640px] max-[1024px]:h-[100%] max-[1024px]:flex max-[1024px]:flex-col max-[1024px]:flex-wrap h-[calc(100%-2rem)] grid grid-cols-6 grid-rows-6 m-4 gap-2 rounded-3xl overflow-clip"
           ref={ref}
         >
           <motion.div
@@ -57,7 +57,7 @@ function Intro() {
               stiffness: 45,
             }}
           >
-            <div className="h-[100%]">
+            <div className=" h-full">
               <img
                 className="max-[1024px]:object-contain w-full h-full object-cover"
                 src={Pic}
