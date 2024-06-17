@@ -59,7 +59,7 @@ function Intro() {
           >
             <div className="h-[100%]">
               <img
-                className="max-[1024px]:object-contain w-[100%] h-[100%] object-cover"
+                className="max-[1024px]:object-contain w-full h-full object-cover"
                 src={Pic}
               />
             </div>
