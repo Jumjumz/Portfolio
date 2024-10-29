@@ -38,7 +38,7 @@ function Profile() {
             Jummer Ramos
           </h1>
           <p className="max-[1600px]:text-lg ml-2 mr-2 font-serif text-lg text-gray-900">
-            Services: Front-end, UI/UX, Graphic Design
+            Services: Full Stack, UI/UX, Graphic Design
           </p>
           <p className="max-[6300px]:text-lg ml-2 mr-2 font-serif text-lg text-gray-900">
             Availability: Present--
