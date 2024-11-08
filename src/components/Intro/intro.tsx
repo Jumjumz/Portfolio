@@ -104,12 +104,12 @@ function Intro() {
             </p>
             <p className=" max-[1600px]:text-sm max-[1200px]:text-xs max-[1024px]:text-m font-san text-sm text-center mt-2">
               Currently, I am enjoying the process of making websites as a{" "}
-              <em className="font-bold not-italic">Full Stack Developer.</em> My
-              favorite in making front-end websites are{" "}
+              <em className="font-bold not-italic">Full Stack Developer.</em> It
+              is fun making websites that you have{" "}
               <motion.em className="font-bold not-italic animate-pulse">
-                Animations
+                full control
               </motion.em>{" "}
-              as they make websites become more interactive and interesting.
+              on how things should be.
             </p>
           </motion.div>
           <motion.div
