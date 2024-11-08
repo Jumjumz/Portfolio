@@ -103,9 +103,8 @@ function Intro() {
               my skillset and expertise in web development.
             </p>
             <p className=" max-[1600px]:text-sm max-[1200px]:text-xs max-[1024px]:text-m font-san text-sm text-center mt-2">
-              Currently, I am enjoying the process of making websites from
-              designing to development especially in the{" "}
-              <em className="font-bold not-italic">Front-End </em>side. My
+              Currently, I am enjoying the process of making websites as a{" "}
+              <em className="font-bold not-italic">Full Stack Developer.</em> My
               favorite in making front-end websites are{" "}
               <motion.em className="font-bold not-italic animate-pulse">
                 Animations
